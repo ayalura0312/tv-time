@@ -1,16 +1,16 @@
-public class Layout {
+public class Episode {
     /**
      * make all the properties that a TV show should have based on the JSON
      */
-    private static int id;
-    private static String url;
-    private static String name;
-    private static int season;
-    private static int number;
-    private static String airdate;
-    private static int airtime;
-    private static String airstamp;
-    private static String runtime;
+    private int id;
+    private String url;
+    private String name;
+    private int season;
+    private int number;
+    private String airdate;
+    private String airtime;
+    private String airstamp;
+    private int runtime;
 
     public int getId() {
         return id;
@@ -34,7 +34,7 @@ public class Layout {
     public String getAirstamp() {
         return airstamp;
     }
-    public String getRuntime() {
+    public int getRuntime() {
         return runtime;
     }
 }
