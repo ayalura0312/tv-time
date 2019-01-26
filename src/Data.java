@@ -16,7 +16,7 @@ import java.nio.file.Path;
  ************************************************************************************************
  ************************************************************************************************
  */
-public class Data {
+public class  Data {
 
     /**
      * This function reads the contents of a file located in the project's 'data' directory into a String
