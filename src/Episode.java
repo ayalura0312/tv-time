@@ -40,7 +40,7 @@ public class Episode {
     public int getRuntime() {
         return runtime;
     }
-    public ArrayList<Episode> getEpisodes() {
-        return episodes;
-    }
+//    public ArrayList<Season> getSeasons() {
+//        return season;
+//    }
 }
