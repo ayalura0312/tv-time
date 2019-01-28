@@ -3,6 +3,8 @@ import org.junit.Test;
 import org.junit.Before;
 import com.google.gson.Gson;
 
+import java.util.ArrayList;
+
 public class testClassTest {
 
     private TvTime Narcos;
@@ -12,8 +14,8 @@ public class testClassTest {
     public void setUp() throws AssertionError {
         Gson gson = new Gson();
         episode = gson.fromJson(Data.getFileContentsAsString("oneEpisodeFile.json"), Episode.class);
-        Narcos = gson.fromJson(Data.getFileContentsAsString("files.json"), TvTime.class);
         embedded = gson.fromJson(Data.getFileContentsAsString("oneSeason.json"), Embedded.class);
+        Narcos = gson.fromJson(Data.getFileContentsAsString("files.json"), TvTime.class);
     }
 
     @Test
@@ -43,6 +45,22 @@ public class testClassTest {
     @Test
     public void getSecondEpisodeInSecondSeasonName() {
         assertEquals("Cambalache", Narcos._embedded.getEpisodes().get(11).getName());
+    }
+    @Test
+    public void getSecondEpisodeInSecondSeasonID() {
+        assertEquals(832099, Narcos._embedded.getEpisodes().get(11).getId());
+    }
+    @Test
+    public void getThirdEpisodeInSecondSeasonURL() {
+        assertEquals("http://www.tvmaze.com/episodes/832100/narcos-2x03-our-man-in-madrid", Narcos._embedded.getEpisodes().get(12).getUrl());
+    }
+    @Test
+    public void getEpisodesFromSeasonTwo() {
+        ArrayList<Episode> seasonTwoEpisodes = new ArrayList<>();
+        for (int i = 10; i < 20; i++) {
+            seasonTwoEpisodes.add(Narcos.get_embedded().getEpisodes().get(i));
+        }
+        assertEquals(seasonTwoEpisodes, Narcos.getEpisodesFromSeason(2));
     }
 
 }
