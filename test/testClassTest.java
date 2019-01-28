@@ -62,5 +62,27 @@ public class testClassTest {
         }
         assertEquals(seasonTwoEpisodes, Narcos.getEpisodesFromSeason(2));
     }
-
+    @Test
+    public void getEpisodesWithLaInThem() {
+        ArrayList<Episode> episodesWithString = new ArrayList<>();
+        episodesWithString.add(Narcos.get_embedded().getEpisodes().get(7));
+        episodesWithString.add(Narcos.get_embedded().getEpisodes().get(8));
+        assertEquals(episodesWithString, Narcos.getEpisodesThatHaveStringInName("La"));
+    }
+    @Test
+    public void getEpisodesWith2017Airdate() {
+        ArrayList<Episode> episodesWithAirdate = new ArrayList<>();
+        for (int i = 20; i < 30; i++) {
+            episodesWithAirdate.add(Narcos.get_embedded().getEpisodes().get(i));
+        }
+        assertEquals(episodesWithAirdate, Narcos.getEpisodesThatHaveAirdateOfGivenYear("2017"));
+    }
+    @Test
+    public void getThirdEpisodeInEverySeason() {
+        ArrayList<Episode> thirdEpisodes = new ArrayList<>();
+        for (int i = 2; i <= 22; i += 10) {
+            thirdEpisodes.add(Narcos.get_embedded().getEpisodes().get(i));
+        }
+        assertEquals(thirdEpisodes, Narcos.getSpecificNumberOfEpisodeInEverySeason(3));
+    }
 }
