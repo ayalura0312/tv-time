@@ -1,0 +1,214 @@
+{
+  "episodes": [
+    {
+      "id": 203469,
+      "url": "http://www.tvmaze.com/episodes/203469/narcos-1x01-descenso",
+      "name": "Descenso",
+      "season": 1,
+      "number": 1,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41472.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41472.jpg"
+      },
+      "summary": "<p>A Chilean drugsproducer, the chemist Cockroach, brings his product to the Colombian smuggler Pablo Escobar. DEA-Agent Steve Murphy is fighting drugs in Bogota.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/203469"
+        }
+      }
+    },
+    {
+      "id": 208978,
+      "url": "http://www.tvmaze.com/episodes/208978/narcos-1x02-the-sword-of-simon-bolivar",
+      "name": "The Sword of Simón Bolívar",
+      "season": 1,
+      "number": 2,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41473.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41473.jpg"
+      },
+      "summary": "<p>The communistic radical group M-19 are counteracting the drug lords and Murphy's new partner Peña teaches him the Colombian way of law enforcement.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208978"
+        }
+      }
+    },
+    {
+      "id": 208979,
+      "url": "http://www.tvmaze.com/episodes/208979/narcos-1x03-the-men-of-always",
+      "name": "The Men of Always",
+      "season": 1,
+      "number": 3,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41474.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41474.jpg"
+      },
+      "summary": "<p>Murphy is confronted with corruption in the Colombian government once he tries to discolate Escobar's his political ambition together with his partner Peña.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208979"
+        }
+      }
+    },
+    {
+      "id": 208980,
+      "url": "http://www.tvmaze.com/episodes/208980/narcos-1x04-the-palace-in-flames",
+      "name": "The Palace in Flames",
+      "season": 1,
+      "number": 4,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41475.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41475.jpg"
+      },
+      "summary": "<p>Despite a new extradition treaty, the USA is increasing their budget to fight communism. It will create new challenges for Murphy and Peña to hunt for Pablo Escobar.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208980"
+        }
+      }
+    },
+    {
+      "id": 208981,
+      "url": "http://www.tvmaze.com/episodes/208981/narcos-1x05-there-will-be-a-future",
+      "name": "There Will Be a Future",
+      "season": 1,
+      "number": 5,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41476.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41476.jpg"
+      },
+      "summary": "<p>Pablo's extreme methods is almost leading to a war between drug lords, Carillo and the government. Peña tries to protect his witness Elisa.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208981"
+        }
+      }
+    },
+    {
+      "id": 208982,
+      "url": "http://www.tvmaze.com/episodes/208982/narcos-1x06-explosivos",
+      "name": "Explosivos",
+      "season": 1,
+      "number": 6,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41477.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41477.jpg"
+      },
+      "summary": "<p>Gacha was almost caught by Peña and Carillo. Murphy tries to protect candidate Gaviria against assassins with ties to Pablo as she is in favour for extradition.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208982"
+        }
+      }
+    },
+    {
+      "id": 208983,
+      "url": "http://www.tvmaze.com/episodes/208983/narcos-1x07-you-will-cry-tears-of-blood",
+      "name": "You Will Cry Tears of Blood",
+      "season": 1,
+      "number": 7,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41478.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41478.jpg"
+      },
+      "summary": "<p>Pablo went to hiding as political tides are turning against him, but he finds a way to beat back. The CIA is finally offering their help to Peña and Murphy.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208983"
+        }
+      }
+    },
+    {
+      "id": 208984,
+      "url": "http://www.tvmaze.com/episodes/208984/narcos-1x08-la-gran-mentira",
+      "name": "La Gran Mentira",
+      "season": 1,
+      "number": 8,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41479.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41479.jpg"
+      },
+      "summary": "<p>A tragic mistake forces the government to change strategies to fight Pablo, but Pablo has bigger issues as there is danger from within his empire.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208984"
+        }
+      }
+    },
+    {
+      "id": 208985,
+      "url": "http://www.tvmaze.com/episodes/208985/narcos-1x09-la-catedral",
+      "name": "La Catedral",
+      "season": 1,
+      "number": 9,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41480.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41480.jpg"
+      },
+      "summary": "<p>The hunt for Pablo seems to be over once he signs a deal with the government, but Murphy, Peña and the Calicartel have different thoughts about that.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208985"
+        }
+      }
+    },
+    {
+      "id": 208986,
+      "url": "http://www.tvmaze.com/episodes/208986/narcos-1x10-despegue",
+      "name": "Despegue",
+      "season": 1,
+      "number": 10,
+      "airdate": "2015-08-28",
+      "airtime": "",
+      "airstamp": "2015-08-28T12:00:00+00:00",
+      "runtime": 60,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/16/41481.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/16/41481.jpg"
+      },
+      "summary": "<p>Pablo's activities in prison forces the government to use extreme actions. Murphy and Peña have to deal with a problematic situation.</p>",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/episodes/208986"
+        }
+      }
+    }
+  ]
+}

@@ -6,4 +6,8 @@ public class Season {
     public ArrayList<Episode> getEpisodes() {
         return episodes;
     }
+
+    public String getNameOfNthEpisode(int index) {
+        return episodes.get(index - 1).getName();
+    }
 }

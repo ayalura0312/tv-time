@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Episode {
     /**
      * make all the properties that a TV show should have based on the JSON
@@ -11,6 +13,7 @@ public class Episode {
     private String airtime;
     private String airstamp;
     private int runtime;
+    private ArrayList<Episode> episodes;
 
     public int getId() {
         return id;
@@ -36,5 +39,8 @@ public class Episode {
     }
     public int getRuntime() {
         return runtime;
+    }
+    public ArrayList<Episode> getEpisodes() {
+        return episodes;
     }
 }

@@ -9,11 +9,11 @@ public class TvTime {
      * parse the JSON and do any extra work
      */
 
-    public Episode parseJSON() {
-        Gson gson = new Gson();
-        String gsonString = Data.getFileContentsAsString("oneEpisodeFile.json");
-        Episode input = gson.fromJson(gsonString, Episode.class);
-        return input;
-    }
+//    public Episode parseJSON() {
+//        Gson gson = new Gson();
+//        String gsonString = Data.getFileContentsAsString("files.json");
+//        Episode input = gson.fromJson(gsonString, Episode.class);
+//        return input;
+//    }
 
 }
