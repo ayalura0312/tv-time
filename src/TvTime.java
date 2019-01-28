@@ -64,4 +64,48 @@ public class TvTime {
         return toReturn;
     }
 
+    public int getTotalNumberOfEpisodes(ArrayList<Episode> input) {
+        if (input == null) {
+            return 0;
+        }
+        return input.size();
+    }
+
+    public int averageLengthOfEpisodes(ArrayList<Episode> input) {
+        if (input == null) {
+            return 0;
+        }
+        int totalRuntime = 0;
+        for (int i = 0; i < input.size(); i++) {
+            totalRuntime += input.get(i).getRuntime();
+        }
+        return totalRuntime / input.size();
+    }
+
+    public int maximumLengthOfPassedEpisodes(ArrayList<Episode> input) {
+        if (input == null) {
+            return 0;
+        }
+        int maxLength = input.get(0).getRuntime();
+        for (int i = 0; i < input.size(); i++) {
+            if (input.get(i).getRuntime() > maxLength) {
+                maxLength = input.get(i).getRuntime();
+            }
+        }
+        return maxLength;
+    }
+
+    public int minimumIdOfPassedEpisodes(ArrayList<Episode> input) {
+        if (input == null) {
+            return 0;
+        }
+        int minID = input.get(0).getId();
+        for (int i = 0; i < input.size(); i++) {
+            if (input.get(i).getId() < minID) {
+                minID = input.get(i).getId();
+            }
+        }
+        return minID;
+    }
+
 }

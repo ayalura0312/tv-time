@@ -85,4 +85,20 @@ public class testClassTest {
         }
         assertEquals(thirdEpisodes, Narcos.getSpecificNumberOfEpisodeInEverySeason(3));
     }
+    @Test
+    public void getTotalNumberOfEpisodesInSeasonOne() {
+        assertEquals(10, Narcos.getTotalNumberOfEpisodes(Narcos.getEpisodesFromSeason(1)));
+    }
+    @Test
+    public void getAverageLengthOfAllEpisodesInSeasonThree() {
+        assertEquals(60, Narcos.averageLengthOfEpisodes(Narcos.getEpisodesFromSeason(3)));
+    }
+    @Test
+    public void getMaximumLengthOfAllEpisodesInSeasonOne() {
+        assertEquals(60, Narcos.maximumLengthOfPassedEpisodes(Narcos.getEpisodesFromSeason(1)));
+    }
+    @Test
+    public void getMinimumIdOfAllEpisodesInSeasonTwo() {
+        assertEquals(832098, Narcos.minimumIdOfPassedEpisodes(Narcos.getEpisodesFromSeason(2)));
+    }
 }
