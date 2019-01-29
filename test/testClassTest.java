@@ -10,12 +10,20 @@ public class testClassTest {
     private TvTime Narcos;
     private Episode episode;
     Embedded embedded;
+    Gson gson = new Gson();
+
     @Before
     public void setUp() throws AssertionError {
-        Gson gson = new Gson();
         episode = gson.fromJson(Data.getFileContentsAsString("oneEpisodeFile.json"), Episode.class);
         embedded = gson.fromJson(Data.getFileContentsAsString("oneSeason.json"), Embedded.class);
         Narcos = gson.fromJson(Data.getFileContentsAsString("files.json"), TvTime.class);
+    }
+
+    @Test
+    public void testNull() throws NullPointerException {
+        if (gson == null) {
+            assertEquals(new NullPointerException(), null);
+        }
     }
 
     //Parsing one episode tests
