@@ -18,6 +18,7 @@ public class testClassTest {
         Narcos = gson.fromJson(Data.getFileContentsAsString("files.json"), TvTime.class);
     }
 
+    //Parsing one episode tests
     @Test
     public void getEpisodeID() {
         assertEquals(203469, episode.getId());
@@ -30,6 +31,8 @@ public class testClassTest {
     public void getEpisodeName() {
         assertEquals("Descenso", episode.getName());
     }
+
+    //Parsing one season tests
     @Test
     public void testGetThirdEpisodeName() {
         assertEquals("The Men of Always", embedded.getEpisodes().get(2).getName());
@@ -42,6 +45,8 @@ public class testClassTest {
     public void getSecondEpisodeURL() {
         assertEquals("http://www.tvmaze.com/episodes/208978/narcos-1x02-the-sword-of-simon-bolivar", embedded.getEpisodes().get(1).getUrl());
     }
+
+    //Parsing complete show object tests
     @Test
     public void getSecondEpisodeInSecondSeasonName() {
         assertEquals("Cambalache", Narcos._embedded.getEpisodes().get(11).getName());
@@ -54,6 +59,8 @@ public class testClassTest {
     public void getThirdEpisodeInSecondSeasonURL() {
         assertEquals("http://www.tvmaze.com/episodes/832100/narcos-2x03-our-man-in-madrid", Narcos._embedded.getEpisodes().get(12).getUrl());
     }
+
+    //Filtering Method Tests
     @Test
     public void getEpisodesFromSeasonTwo() {
         ArrayList<Episode> seasonTwoEpisodes = new ArrayList<>();
@@ -85,6 +92,8 @@ public class testClassTest {
         }
         assertEquals(thirdEpisodes, Narcos.getSpecificNumberOfEpisodeInEverySeason(3));
     }
+
+    //Aggregation Method Tests
     @Test
     public void getTotalNumberOfEpisodesInSeasonOne() {
         assertEquals(10, Narcos.getTotalNumberOfEpisodes(Narcos.getEpisodesFromSeason(1)));

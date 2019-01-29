@@ -4,10 +4,12 @@ import java.util.ArrayList;
 public class TvTime {
     Embedded _embedded;
 
+
     public Embedded get_embedded() {
         return _embedded;
     }
 
+    //Filtering Methods
     public ArrayList<Episode> getEpisodesFromSeason(int season) {
         ArrayList<Episode> toReturn = new ArrayList<>();
         for (int i = 0; i < this.get_embedded().getEpisodes().size(); i++) {
@@ -64,6 +66,7 @@ public class TvTime {
         return toReturn;
     }
 
+    //Aggregate Methods
     public int getTotalNumberOfEpisodes(ArrayList<Episode> input) {
         if (input == null) {
             return 0;

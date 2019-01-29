@@ -11,7 +11,6 @@ public class Episode {
     private int number;
     private String airdate;
     private String airtime;
-    private String airstamp;
     private int runtime;
     private ArrayList<Episode> episodes;
 
@@ -32,10 +31,6 @@ public class Episode {
     }
     public String getAirdate() {
         return airdate;
-    }
-
-    public String getAirstamp() {
-        return airstamp;
     }
     public int getRuntime() {
         return runtime;
